@@ -39,11 +39,6 @@
        HERO
        ══════════════════════════════════════════════ -->
   <section id="hero">
-    <!-- Imagen de fondo absoluta -->
-    <div class="hero-img-wrap">
-      <img src="assets/img/hero.png" alt="Interior de hogar moderno">
-    </div>
-    <!-- Texto sobre la imagen -->
     <div class="hero-inner">
       <div class="hero-text">
         <h1 class="hero-headline">
@@ -61,6 +56,9 @@
           <img src="assets/img/ico-whatsapp2.svg" alt="">
           Respuesta rápida y presupuestos sin cargo
         </div>
+      </div>
+      <div class="hero-img-wrap">
+        <img src="assets/img/hero.png" alt="Interior de hogar moderno">
       </div>
     </div>
   </section>
@@ -259,7 +257,6 @@
   </a>
 
   <script>
-    // Menú hamburguesa
     const toggle = document.querySelector('.nav-toggle');
     const links  = document.querySelector('.nav-links');
     toggle.addEventListener('click', () => {
@@ -274,14 +271,6 @@
         toggle.setAttribute('aria-expanded', false);
       });
     });
-
-    // Nav: transparente en hero → blanco al hacer scroll
-    const nav = document.querySelector('nav');
-    const updateNav = () => {
-      nav.classList.toggle('scrolled', window.scrollY > 40);
-    };
-    window.addEventListener('scroll', updateNav, { passive: true });
-    updateNav();
   </script>
 
 </body>
