@@ -93,11 +93,11 @@
       overflow: hidden;
     }
     .hero-inner {
-      max-width: var(--max-w); margin: 0 auto;
+      margin: 0 auto;
       display: grid; grid-template-columns: 1fr 1fr;
       align-items: center; gap: 0;
     }
-    .hero-text { padding: 4rem 2rem 4rem 2rem; }
+    .hero-text { padding: 4rem 4rem 4rem 4rem; }
 
     .hero-headline {
       font-family: 'Fraunces', serif;
