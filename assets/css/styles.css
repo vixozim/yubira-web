@@ -120,11 +120,11 @@
       background: linear-gradient(
         to right,
         rgba(245,240,234,1)    0%,
-        rgba(245,240,234,0.97) 28%,
-        rgba(245,240,234,0.75) 48%,
-        rgba(245,240,234,0.1)  68%,
-        rgba(245,240,234,0)    80%
-      );
+        rgba(245,240,234,0.97) 0%,
+        rgba(245,240,234,0.85) 7%,
+        rgba(245,240,234,0.1)  100%,
+        rgba(245,240,234,0)    21%
+      )
     }
 
     /* Contenedor del texto sobre la imagen */
@@ -283,7 +283,7 @@
 
     .porque-grid {
       display: grid;
-      grid-template-columns: repeat(7, 1fr);
+      grid-template-columns: repeat(6, 1fr);
       gap: .75rem; margin-top: 2.5rem;
     }
     .porque-item {
